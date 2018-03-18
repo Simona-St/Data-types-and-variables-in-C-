@@ -1,0 +1,16 @@
+using System;
+
+namespace StringsAndObjects
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string hello = "Hello";
+            string world = "World";
+            object temp = hello + " " + world;
+            string concatenatedVar = (string)temp;
+            Console.WriteLine(concatenatedVar);
+        }
+    }
+}
