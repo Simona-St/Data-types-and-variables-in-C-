@@ -1,0 +1,20 @@
+using System;
+
+namespace exactProductOfRealNumbers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+            decimal product = 1M; 
+            for (int i = 0; i < n; i++)
+            {
+                decimal input = decimal.Parse(Console.ReadLine());
+                product = product * input;
+            }
+            Console.WriteLine(product);
+
+        }
+    }
+}

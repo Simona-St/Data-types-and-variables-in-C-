@@ -1,0 +1,21 @@
+using System;
+
+namespace Transport
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int people = int.Parse(Console.ReadLine());
+            int courses = (people / 24);
+            int peopleLeft = people - courses * 24;
+
+            if (peopleLeft > 0)
+            {
+                courses++;
+            }
+
+            Console.WriteLine(courses);
+        }
+    }
+}

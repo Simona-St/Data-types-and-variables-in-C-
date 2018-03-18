@@ -1,0 +1,15 @@
+using System;
+
+namespace Circle_erimeter
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+           double radius = double.Parse(Console.ReadLine());
+           double circle = 2 * radius * Math.PI;
+           Console.WriteLine("{0:f12}", circle);
+        }
+    }
+}
