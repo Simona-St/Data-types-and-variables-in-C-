@@ -1,0 +1,43 @@
+using System;
+
+namespace TheaThePhotographer
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            long totalPictures = long.Parse(Console.ReadLine());
+            long filterTime = long.Parse(Console.ReadLine());
+            byte percentGoodPics = byte.Parse(Console.ReadLine());
+            long uploadTime = long.Parse(Console.ReadLine());
+
+            decimal filteredPics = Math.Ceiling((percentGoodPics * 0.01m) * totalPictures);
+
+            long totalSeconds = (long)((totalPictures * filterTime) + (filteredPics * uploadTime));
+            long totalMinutes = 0;
+            long totalHours = 0;
+            long totalDays = 0;
+
+            if (totalSeconds >= 60)
+            {
+                totalMinutes = totalSeconds / 60;
+                totalSeconds = totalSeconds - (totalMinutes * 60);
+            }
+
+            if (totalMinutes >= 60)
+            {
+                totalHours = totalMinutes / 60;
+                totalMinutes = totalMinutes - (totalHours * 60);
+            }
+
+            if (totalHours >= 24)
+            {
+                totalDays = totalHours / 24;
+                totalHours = totalHours - (totalDays * 24);
+            }
+
+            Console.WriteLine($"{totalDays}:{totalHours:D2}:{totalMinutes:d2}:{totalSeconds:d2}");
+
+        }
+    }
+}
