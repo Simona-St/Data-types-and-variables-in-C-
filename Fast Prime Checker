@@ -1,0 +1,26 @@
+using System;
+namespace FastPrimeCheckerRefactor
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { 
+            int inputNum = int.Parse(Console.ReadLine());
+
+            for (int divided = 2; divided <= inputNum; divided++)
+            {
+                bool isPrime = true;
+
+                for (int current = 2; current <= Math.Sqrt(divided); current++)
+                {
+                    if (divided % current == 0)
+                    {
+                        isPrime = false;
+                        break;
+                    }
+                }
+                Console.WriteLine($"{divided} -> {isPrime}");
+            }
+        }
+    }
+}
