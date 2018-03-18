@@ -1,0 +1,6 @@
+C:\Users\MonnMonn\documents\visual studio 2015\Projects\DataTypesAndVariablesMore\BeerKegs\bin\Debug\BeerKegs.exe.config
+C:\Users\MonnMonn\documents\visual studio 2015\Projects\DataTypesAndVariablesMore\BeerKegs\bin\Debug\BeerKegs.exe
+C:\Users\MonnMonn\documents\visual studio 2015\Projects\DataTypesAndVariablesMore\BeerKegs\bin\Debug\BeerKegs.pdb
+C:\Users\MonnMonn\documents\visual studio 2015\Projects\DataTypesAndVariablesMore\BeerKegs\obj\Debug\BeerKegs.csprojResolveAssemblyReference.cache
+C:\Users\MonnMonn\documents\visual studio 2015\Projects\DataTypesAndVariablesMore\BeerKegs\obj\Debug\BeerKegs.exe
+C:\Users\MonnMonn\documents\visual studio 2015\Projects\DataTypesAndVariablesMore\BeerKegs\obj\Debug\BeerKegs.pdb

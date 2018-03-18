@@ -1,0 +1,6 @@
+C:\Users\MonnMonn\documents\visual studio 2015\Projects\DataTypesAndVariablesMore\BoatSimulator\bin\Debug\BoatSimulator.exe
+C:\Users\MonnMonn\documents\visual studio 2015\Projects\DataTypesAndVariablesMore\BoatSimulator\bin\Debug\BoatSimulator.pdb
+C:\Users\MonnMonn\documents\visual studio 2015\Projects\DataTypesAndVariablesMore\BoatSimulator\obj\Debug\BoatSimulator.csprojResolveAssemblyReference.cache
+C:\Users\MonnMonn\documents\visual studio 2015\Projects\DataTypesAndVariablesMore\BoatSimulator\obj\Debug\BoatSimulator.exe
+C:\Users\MonnMonn\documents\visual studio 2015\Projects\DataTypesAndVariablesMore\BoatSimulator\obj\Debug\BoatSimulator.pdb
+C:\Users\MonnMonn\Documents\Visual Studio 2015\Projects\DataTypesAndVariablesMore\BoatSimulator\obj\Debug\BoatSimulator.csproj.CoreCompileInputs.cache
