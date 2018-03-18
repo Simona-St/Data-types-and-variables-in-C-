@@ -1,0 +1,23 @@
+using System;
+
+namespace PracticeCharactersAndStrings
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string uni = "Software University";
+            char b = 'B';
+            char y = 'y';
+            char e = 'e';
+            string program = "I love programming";
+
+            Console.WriteLine(uni);
+            Console.WriteLine(b);
+            Console.WriteLine(y);
+            Console.WriteLine(e);
+            Console.WriteLine(program);
+
+        }
+    }
+}
